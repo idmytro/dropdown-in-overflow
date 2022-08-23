@@ -1,6 +1,7 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import HomeView from '../views/HomeView.vue';
+import InputView from '../views/InputView.vue';
 import BsVue from '../views/BsVue.vue';
 
 Vue.use(VueRouter);
@@ -15,6 +16,11 @@ const routes = [
     path: '/bs',
     name: 'bs',
     component: BsVue,
+  },
+  {
+    path: '/i',
+    name: 'i',
+    component: InputView,
   },
 ];
 
