@@ -1,6 +1,7 @@
+<!-- eslint-disable max-len -->
 <template>
   <div class="my-10px">
-    <div class="p-20px mx-auto w-400px border bg-green-100 overflow-hidden">
+    <div class="p-20px mx-auto w-400px border bg-green-100 overflow-hidden absolute top-1rem left-1rem">
       <b-dropdown
       id="dropdown-1"
       text="Dropdown Button"
