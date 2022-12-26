@@ -3,6 +3,7 @@ import VueRouter from 'vue-router';
 import HomeView from '../views/HomeView.vue';
 import InputView from '../views/InputView.vue';
 import BsVue from '../views/BsVue.vue';
+import BsVueFixed from '../views/BsVueFixed.vue';
 
 Vue.use(VueRouter);
 
@@ -16,6 +17,11 @@ const routes = [
     path: '/bs',
     name: 'bs',
     component: BsVue,
+  },
+  {
+    path: '/fix',
+    name: 'fix',
+    component: BsVueFixed,
   },
   {
     path: '/i',
