@@ -1,4 +1,5 @@
 <!-- eslint-disable max-len -->
+<!-- https://github.com/bootstrap-vue/bootstrap-vue/issues/6030#issuecomment-797755588 -->
 <template>
   <div class="my-10px">
     <div class="p-20px mx-auto w-400px border bg-green-100 overflow-hidden absolute top-1rem left-1rem">
